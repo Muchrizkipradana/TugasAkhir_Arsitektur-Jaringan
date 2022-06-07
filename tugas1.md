@@ -1,4 +1,4 @@
-# TugasAkhir_Arsitektur-Jaringan
+## TugasAkhir_Arsitektur-Jaringan
 
 1. Buat EC2 Instance di AWS Academy: Name and tags: Tugas Akhir OS Images: Ubuntu Server 22.04 LTS 64 bit
 Instance type: t2.medium
