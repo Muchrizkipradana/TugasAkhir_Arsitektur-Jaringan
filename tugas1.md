@@ -73,9 +73,12 @@ Setelah semua kebutuhan telah terinstall bisa dilihat dengan mengetikan
 `help` untuk melihat opsi yang disediakan
 ![13](https://user-images.githubusercontent.com/64295717/172342189-8abe37cd-cc0b-4537-858a-b0af57180f79.PNG)
 `node` Melihat node yang tersedia
+
 ![14](https://user-images.githubusercontent.com/64295717/172342649-4b6a4f48-78e9-4ef3-a28d-091eef39f842.PNG)
 `net` Melihat jalur ethernet yang dapat dihubungkan
-![15](https://user-images.githubusercontent.com/64295717/172342773-28f614b4-4b3a-462f-b3![16](https://user-images.githubusercontent.com/64295717/172343155-dbb10eb8-87a8-4e43-b9bd-a39ae6478022.PNG)
-0c-49c608ceedd7.PNG)
-![Uploading 16.PNG…]()
+
+![15](https://user-images.githubusercontent.com/64295717/172345163-53f0b6a5-4eb5-4e6d-ac7d-b97fbdf12e4b.PNG)
+
+![16](https://user-images.githubusercontent.com/64295717/172345223-a7616009-9455-4ab8-a543-5093513b9ff9.PNG)
+
 `pingall` Untuk uji koneksi antar host
