@@ -48,7 +48,6 @@ install mininet
 mininet/util/install.sh -nfv
 ```
 ![8](https://user-images.githubusercontent.com/64295717/172340728-2cc420e2-f14d-4aa6-8893-b4f41d22fcc7.PNG)
-
 Instalasi Ryu Unduh repository Ryu dan instal
 ```
 git clone git://github.com/osrg/ryu.git
@@ -56,27 +55,24 @@ cd ryu; pip install .
 cd
 ```
 ![9](https://user-images.githubusercontent.com/64295717/172340802-0c2bc087-065e-473c-b472-9629d7cd0513.PNG)
-
 Instalasi Flowmanager Unduh repository Flowmanager
 ```
 git clone https://github.com/martimy/flowmanager
 cd
 ```
 ![10](https://user-images.githubusercontent.com/64295717/172341345-3dc0307e-e2d6-4bd6-b9a7-22219d0ffe32.PNG)
-
 Setelah semua kebutuhan telah terinstall bisa dilihat dengan mengetikan 
 `$ls` digunakan untuk melihat paket yang sudah di install
 
 ![11](https://user-images.githubusercontent.com/64295717/172341468-704b1836-5f89-41d0-8afa-3393debb4573.PNG)
-
 `sudo mn` untuk Interaksi Host dan Switch
 ![12](https://user-images.githubusercontent.com/64295717/172341728-8c96a9cf-a109-4510-8c15-e11088608721.PNG)
-
 `help` untuk melihat opsi yang disediakan
 ![13](https://user-images.githubusercontent.com/64295717/172342189-8abe37cd-cc0b-4537-858a-b0af57180f79.PNG)
 `node` Melihat node yang tersedia
 ![14](https://user-images.githubusercontent.com/64295717/172342649-4b6a4f48-78e9-4ef3-a28d-091eef39f842.PNG)
 `net` Melihat jalur ethernet yang dapat dihubungkan
+
 ![15](https://user-images.githubusercontent.com/64295717/172345163-53f0b6a5-4eb5-4e6d-ac7d-b97fbdf12e4b.PNG)
 ![16](https://user-images.githubusercontent.com/64295717/172345223-a7616009-9455-4ab8-a543-5093513b9ff9.PNG)
 
