@@ -68,13 +68,16 @@ Setelah semua kebutuhan telah terinstall bisa dilihat dengan mengetikan
 `$ls` digunakan untuk melihat paket yang sudah di install
 
 ![11](https://user-images.githubusercontent.com/64295717/172341468-704b1836-5f89-41d0-8afa-3393debb4573.PNG)
+
 `sudo mn` untuk Interaksi Host dan Switch
 ![12](https://user-images.githubusercontent.com/64295717/172341728-8c96a9cf-a109-4510-8c15-e11088608721.PNG)
+
 `help` untuk melihat opsi yang disediakan
 ![13](https://user-images.githubusercontent.com/64295717/172342189-8abe37cd-cc0b-4537-858a-b0af57180f79.PNG)
-`node` Melihat node yang tersedia
 
+`node` Melihat node yang tersedia
 ![14](https://user-images.githubusercontent.com/64295717/172342649-4b6a4f48-78e9-4ef3-a28d-091eef39f842.PNG)
+
 `net` Melihat jalur ethernet yang dapat dihubungkan
 
 ![15](https://user-images.githubusercontent.com/64295717/172345163-53f0b6a5-4eb5-4e6d-ac7d-b97fbdf12e4b.PNG)
