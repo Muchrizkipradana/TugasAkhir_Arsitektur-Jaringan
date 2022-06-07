@@ -8,8 +8,7 @@
 - Configure storage: 30 GiB, gp3
 
 ![1](https://user-images.githubusercontent.com/64295717/172334427-949d466a-a0d4-4bdb-9a4f-13bdd027ae74.PNG)
+``` 
 tampilan membuat instance baru dengan nama Tugas Akhir
-'''
-halo
-'''
+```
 
