@@ -1,4 +1,4 @@
-####1. Membuat EC2 Instance di AWS Academy: 
+## Membuat EC2 Instance di AWS Academy: 
 dengan ketentuan sebagai berikut: 
 Name and tags: Tugas Akhir
 OS Images: Ubuntu Server 22.04 LTS 64 bit
