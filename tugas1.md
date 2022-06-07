@@ -6,7 +6,10 @@
 - Key pair: vockey
 - Edit Network settings: allow SSH, allow HTTP, allow HTTPS, allow TCP port 8080, allow TCP port 8081
 - Configure storage: 30 GiB, gp3
-<img src="1.PNG"> 
 
-tampilan membuat instance baru dengan nama Tugas Akhir
 ![1](https://user-images.githubusercontent.com/64295717/172334427-949d466a-a0d4-4bdb-9a4f-13bdd027ae74.PNG)
+tampilan membuat instance baru dengan nama Tugas Akhir
+'''
+halo
+'''
+
