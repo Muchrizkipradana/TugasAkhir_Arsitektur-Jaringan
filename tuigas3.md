@@ -1,4 +1,5 @@
 ### aplikasi Ryu Load Balancer 
+
 **Source code dengan nama topo_lb.py**
 ```
 from mininet.topo import Topo
@@ -65,11 +66,14 @@ def run():
 if __name__ == '__main__':
     setLogLevel( 'info' )
     run()
-    ```
-    
-    **source code kedua dengan nama rr_lb.py**
-    ```
-    # Copyright (C) 2011 Nippon Telegraph and Telephone Corporation.
+ ```
+ 
+ <br>
+ 
+ **Source code dengan nama rr_lb.py**
+
+```
+# Copyright (C) 2011 Nippon Telegraph and Telephone Corporation.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -321,10 +325,9 @@ class SimpleSwitch13(app_manager.RyuApp):
         flow_mod2 = parser.OFPFlowMod(datapath=datapath, match=match, idle_timeout=7, instructions=inst2, cookie=cookie)
         datapath.send_msg(flow_mod2)
         print("<++++++++Reply sent from server: "+str(server_ip_selected)+", MAC: "+str(server_mac_selected)+". Via load balancer: "+str(self.virtual_lb_ip)+". To client: "+str(ip_header.src)+"++++++++>")
-    
-    ```
-    
-   untuk praktiknya
+```
+
+   **untuk praktiknya**
    buat file yang bernama `rr_lb.py` dan `topo_lb.py` 
    
    ![3](https://user-images.githubusercontent.com/64295717/172631994-079cb49a-5cd1-49fe-a3be-9e6489c84979.PNG)
@@ -342,6 +345,8 @@ ryu-manager rr_lb.py
 ```
 3.Pada program topo_lb.py akan membentuk topologi seperti ![topology] yang terdiri atas 4 hosts (h1 - h4) dan 1 switch (s1) dengan skenario sebagai berikut:
 
+![10](https://user-images.githubusercontent.com/64295717/172834162-38bccdb9-2e7c-4ba5-9eeb-6c14eed0d5e8.PNG)
+
 ```
 h1 sebagai web client
 h2 sebagai web server mininet> h2 python3 -m http.server 80 &
@@ -350,14 +355,16 @@ h4 sebagai web server mininet> h4 python3 -m http.server 80 &
 Pada program rr_lb.py secara umum akan mengeksekusi
 ```
 
-Virtual server pada IP 10.0.0.100
-Menentukan h2, h3, dan h4 sebagai server tujuan
-Menggunakan round-robin untuk meneruskan setiap tcp request baru ke server yang dipilih
+- Dengan virtual server pada IP 10.0.0.100
+- Menentukan h2, h3, dan h4 sebagai server tujuan. Dan Menggunakan round-robin untuk meneruskan setiap tcp request baru ke server yang dipilih
 Selanjutnya lakukan percobaan pada mininet console:
+
+![10](https://user-images.githubusercontent.com/64295717/172834487-133e90b9-f230-40f0-90df-5464364b5bcd.PNG)
+![11](https://user-images.githubusercontent.com/64295717/172834523-f5567f43-fe19-4a86-bced-48ced8e04ae9.PNG)
 
 `mininet> h1 curl 10.0.0.100`
 `mininet> dpctl dump-flows -O OpenFlow13`
-Lakukan beberapa kali dan amati apa yang tampil pada terminal console yang menjalankan ryu-manager rr_lb.py atau pun pada terminal console yang menjalankan sudo python3 topo_lb.py
+
 
 
 
