@@ -331,6 +331,8 @@ class SimpleSwitch13(app_manager.RyuApp):
    buat file yang bernama `rr_lb.py` dan `topo_lb.py` 
    
    ![3](https://user-images.githubusercontent.com/64295717/172631994-079cb49a-5cd1-49fe-a3be-9e6489c84979.PNG)
+   ![3](https://user-images.githubusercontent.com/64295717/172842230-cc9a5e5c-a083-4f12-9c3c-eeb95f293697.PNG)
+
    
 1. selanjutnya jalankan progam dengan cara perintah pada salah satu terminal console:
   ```
@@ -338,6 +340,9 @@ class SimpleSwitch13(app_manager.RyuApp):
   ```
   
 ![12](https://user-images.githubusercontent.com/64295717/172632561-419a34ec-b9bb-4dbb-b4b3-9a3ad8c1130a.PNG)
+![12](https://user-images.githubusercontent.com/64295717/172842290-9bf85d29-1c16-4ba2-a094-5b99aa36f970.PNG)
+
+
 2. Jalankan aplikasi `rr_lb.py` pada Ryu controller dengan terminal console :
 
 ```
