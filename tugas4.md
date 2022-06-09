@@ -29,7 +29,7 @@ Berisikan ada paket apapun dikirimkan ke controler
 ![image](https://user-images.githubusercontent.com/64295717/172839798-eeee604d-72b6-4282-b3c9-2ab62c4c4a9f.png)
 
 Yang berbeda dari s4 yaitu ada 2 flow yang dibuat jika ada paket dari h1 alamat tujuan h4 dikeluarkan port1 sebaliknya jika ada src 4 tujuan h1 diarahkan output ke port2 
-Jalur yang terpilih yaitu s1 s2 ke s4
+Jalur yang terpilih yaitu s1 s2 ke s4 (jalur terpendek)
 
 ![image](https://user-images.githubusercontent.com/64295717/172839875-0d8a18f4-97c6-4a5c-9a67-cf8160cd219c.png)
 
@@ -45,7 +45,7 @@ Ping dari h5 ke –c4 h6
 
 ![image](https://user-images.githubusercontent.com/64295717/172840213-b4b37b68-f17a-4ecb-a9a5-6abef6e99214.png)
 
-Melewati jalur s1,s2,s4,S5,dan S6
+Maka jalur terpendek yang dilewati yaitu jalur s1,s2,s4,S5,dan S6
 
 
 
